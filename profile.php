@@ -31,9 +31,9 @@
 
         <?php
 
-$client_id = 51484437; // ID приложения
-$client_secret = 'jJ49v4LXLqQTlQakdE4W'; // Защищённый ключ
-$redirect_uri = 'http://vhelp.online/profile.php'; // Адрес сайта
+$client_id = ID приложения;
+$client_secret = 'Секретный ключ';
+$redirect_uri = 'http://название сайта/profile.php';
 
 
 if (isset($_GET['code'])) {
