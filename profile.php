@@ -79,20 +79,6 @@ if (isset($_GET['code'])) {
 }
 ?>
 
-<?php
-
-$link = mysqli_connect('localhost', 'root', '', 'vhelp');
-
-$sql = 'SELECT id, name FROM cities';
-
-$result = mysqli_query($link, $sql);
-
-while ($row = mysqli_fetch_array($result)) {
-    print("Город: " . $row['name'] . "; Идентификатор: . " . "<br>");
-}
-
-?>
-
 <div class="container profile p-4">
         <div class="profile-info d-flex">
             <div class="row w-100">
