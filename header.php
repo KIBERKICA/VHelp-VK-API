@@ -24,9 +24,9 @@
                     <form class="d-flex">
                     <?php
 
-$client_id = 51484437;
-$client_secret = 'jJ49v4LXLqQTlQakdE4W';
-$redirect_uri = 'http://vhelp.online/profile.php';
+$client_id = ID приложения;
+$client_secret = 'Секретный ключ';
+$redirect_uri = 'http://название сайта/profile.php';
 
 $url = 'http://oauth.vk.com/authorize';
 
